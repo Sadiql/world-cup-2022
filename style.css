@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=Inter:wght@700&family=Poppins:ital,wght@0,500;0,700;1,700&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
-    padding: 20px;
+    padding: 20px; 
 }
 /* top banner design start-----------
 ---------------------------------------- */
@@ -123,9 +123,83 @@ a{
 /* Footer ---------------
 ------------------------------- */
 .footer{
-    width: 100%;
     background-color: rgb(9, 25, 26);
     color: aliceblue;
     text-align: center;
-    padding: 30px;
+    margin-top: 50px;
+    padding: 40px 0;
+}
+hr{
+    margin: 20px 60px;
+    color: rgb(129, 127, 127);
+}
+.about a{
+    color: silver;
+    margin-right: 20px;
+    font-size: 10px;
+}
+/* Media query-----------
+------------------------------ */
+/* for Mobail device-------------- */
+@media only screen and (max-width: 688px) {
+    .top-banner{
+        flex-direction: column;
+        /* justify-content: center; */
+        text-align: center;
+        align-items: center;
+        
+    }
+    .top-banner-details{
+        align-items: center;
+    }
+    .button{
+        margin-left: 100px;
+    }
+    .playr-image{
+        height: 100%;
+        margin-left: 80px;
+    }
+    .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .world-cup-info{
+        margin-left: 50px;
+        background-color: white;
+    }
+    .match, .group{
+        border: 1px solid silver;
+    }
+    .match-info{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer{
+        text-align: center;
+    }
+    .about a{
+        display: block;
+        margin-top: 10px;
+
+    } 
+}
+/* for tablet device----------
+-------------------------------- */
+@media only screen and (min-width:668px) and (max-width: 992px) {
+    .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .world-cup-info{
+        width: 100%;
+        display: flex;
+        margin-left: 200px;
+        align-items: center;
+        margin-left: 50px;
+        background-color: white;
+    }
+    .match, .group{
+        border: 1px solid silver;
+    }
+    .match-info{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
 }
