@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=Inter:wght@700&family=Poppins:ital,wght@0,500;0,700;1,700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+}
+/* top banner design start-----------
+---------------------------------------- */
+.top-banner{
+    display: flex;
+    background-color: rgb(9, 25, 26);
+    border-radius: 10px;
+}
+/* banner details start------------ */
+.top-banner-details{
+    color: white;
+    padding: 50px;
+    width: 100%;
+}
+.banner-title{
+    font-size: 40px;
+}
+/* button -------------- */
+.button{
+    display: flex;
+    gap: 10px;
+    width: 120px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+    
+}
+.live-button a{
+    text-decoration: none;
+    color: white;
+}
+.button, .arow-icon{
+    color: white;
+}
+/* ---------------- */
+/* banner details end------------ */
+.playr-image img{
+    height: 100%;
+    width: 100%;
+}
+.playr-image{
+    width: 50%;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+/* top banner design end-----------
+------------------------------------ */
+/* world cup info start----------- */
+.world-cup-info{
+    width: 215px;
+    height: 210px;
+    background-color: rgb(9, 25, 26);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.match{
+    background-color: white;
+    text-align: center;
+    width: 150px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.group{
+    background-color: white;
+    text-align: center;
+    width: 150px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.blog{
+    background-color: red;
+    text-align: center;
+    width: 150px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.blog a{
+    color: aliceblue;
+}
+/* world cup info end -----------
+------------------------------ */
+/* match info start -------- 
+------------------------*/
+.container{
+    display: grid;
+    grid-template-columns: 250px repeat(1, 1fr);
+    grid-column-gap: 30px;
+    margin-top: 30px;
+}
+.match-info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.container-blog{
+    border: 1px solid silver;
+    border-radius: 12px;
+}
+.world-cup-team img{
+    width: 100%;
+}
+.time-and-massage{
+    display: flex;
+    gap: 40px;
+}
+.transfer{
+    padding: 15px;
+}
+/* match info end -------- 
+------------------------*/
+/* Footer ---------------
+------------------------------- */
+.footer{
+    width: 100%;
+    background-color: rgb(9, 25, 26);
+    color: aliceblue;
+    text-align: center;
+    padding: 30px;
+}
