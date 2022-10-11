@@ -29,6 +29,9 @@ body{
     background-color: red;
     
 }
+.button:hover{
+    background-color: blue;
+}
 .live-button a{
     text-decoration: none;
     color: white;
