@@ -210,6 +210,26 @@ hr{
     display: flex;
 
 }
+.match1{
+    background-color: red;
+    text-align: center;
+    width: 150px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.blog1{
+    background-color: white;
+    text-align: center;
+    width: 150px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid silver;
+}
+.match1 a{
+    color: white;
+}
 .upcoming-match-info{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
